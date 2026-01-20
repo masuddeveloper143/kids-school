@@ -28,7 +28,6 @@ body {
     padding: 0 16px;
 }
 
-.navbar-content {}
 
 .flex {
     height: 102px;
@@ -81,6 +80,18 @@ ul {
     border-radius: 8px;
     color: white;
 }
+
+.hero-item-prent-title{
+    max-width: 640px;
+    text-align: left;
+}
+.hero-item-prent-title h1{
+    font-size: 56px;
+    line-height: 110%;
+}
+
+.spa
+
 
 
 /* hero section start  */
