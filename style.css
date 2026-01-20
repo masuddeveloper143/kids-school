@@ -145,6 +145,18 @@ ul {
     margin: 100px 0;
 }
 
+.crad-toph1 h1 {
+    color: rgba(0, 0, 0, 1);
+
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .crad-box {
     width: 367.8px;
     height: 476.78px;
@@ -153,13 +165,41 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid;
+    gap: 50px;
     box-sizing: border-box;
     border: 0.94px solid rgba(222, 245, 255, 1);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgba(222, 245, 255, 1) 0%, rgba(255, 255, 255, 0) 40%), rgba(255, 255, 255, 1);
+
 }
+
+.crad-box h1 {
+    color: rgba(32, 32, 32, 1);
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.crad-box p {
+    color: rgba(128, 128, 128, 1);
+    font-family: Raleway;
+    font-style: Medium;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.crad-box a {
+    color: blue;
+}
+
 
 
 
