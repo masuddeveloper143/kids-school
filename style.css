@@ -135,5 +135,9 @@ ul {
 /* responsive mobaile divice  */
 
 @media screen and (max-width: 576px) {
+    ul li{
+        display: none;
+    }
+
     
 }
