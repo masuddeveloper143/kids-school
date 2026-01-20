@@ -162,7 +162,11 @@ ul {
         text-align: center;
     }
 
-    .navbar {
-       
-    }
+    /* .navbar-content {
+        width: 90%;
+        position: fixed;
+        top: 0;
+    } */
+
+    
 }
