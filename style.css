@@ -246,6 +246,8 @@ ul {
         position: fixed;
         top: 0;
     } */
-
+.crad-container{
+    flex-direction: column;
+}
 
 }
