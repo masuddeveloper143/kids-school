@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,18 +14,23 @@
 
 
 
-html{
+html {
     font-size: 62.5%;
 }
 
-.container{
+body {
+    /* background-color: red; */
+}
+
+.container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 16px;
 }
 
+.navbar-content {}
 
-.flex{
+.flex {
     height: 102px;
     display: flex;
     justify-content: space-between;
@@ -33,42 +38,46 @@ html{
 
 }
 
-ul{
+ul {
     gap: 3rem;
-    font-size: 16px ;
+    font-size: 16px;
     font-weight: bold;
 }
-.home{
+
+.home {
     color: orange;
 }
-.about{
+
+.about {
     color: blue;
 }
-.facilities{
+
+.facilities {
     color: green;
 }
-.admission{
+
+.admission {
     color: cornflowerblue;
 }
 
-.navbar-logo{
+.navbar-logo {
     width: 62px;
     height: 62px;
 }
-.navbar-logo img{
+
+.navbar-logo img {
     width: 100%;
     height: 100%;
 }
-.navbar-logo h2{
+
+.navbar-logo h2 {
     font-size: 2rem;
-font-weight: bold;
+    font-weight: bold;
 }
 
-.btn{
+.btn {
     padding: 12px 40px;
     background-color: orange;
     border-radius: 8px;
     color: white;
 }
-
-
