@@ -81,18 +81,59 @@ ul {
     color: white;
 }
 
-.hero-item-prent-title{
+
+
+
+
+
+
+/* hero section start end  */
+.hero-item-prent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-item-prent-title {
     max-width: 640px;
     text-align: left;
 }
-.hero-item-prent-title h1{
+
+.hero-item-prent-title h1 {
     font-size: 56px;
     line-height: 110%;
+    font-weight: 700;
 }
 
-.spa
+.hero-item-prent-title p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 1.3rem 0;
+}
+
+.spn1 {
+    color: orange;
+}
+
+.spn2 {
+    color: black;
+}
+
+.spn3 {
+    color: hwb(197 14% 41%);
+}
 
 
 
-/* hero section start  */
+/* hero section start end  */
 
+
+
+/* responsive mobaile divice  */
+
+@media screen and (max-width: 576px) {
+    
+}
