@@ -218,6 +218,9 @@ ul {
 
 
 
+
+
+
 /* responsive mobaile divice  */
 
 @media screen and (max-width: 576px) {
@@ -242,6 +245,11 @@ ul {
         text-align: center;
     }
 
+    .hero-item-prent-title h1 {
+        width: 100%;
+        text-align: center;
+    }
+
     /* .navbar-content {
         width: 90%;
         position: fixed;
@@ -250,11 +258,12 @@ ul {
 
 
 .crad-container{
-    width: 100%;
     flex-direction: column;
     gap: 5px;
+}
 
-    
+.crad-box{
+    width: 100%;
 }
 
 }
