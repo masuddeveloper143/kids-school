@@ -147,7 +147,6 @@ ul {
 
 .crad-toph1 h1 {
     color: rgba(0, 0, 0, 1);
-
     font-family: Quicksand;
     font-style: Bold;
     font-size: 46px;
@@ -155,6 +154,12 @@ ul {
     line-height: 57.5px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.crad-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .crad-box {
@@ -207,11 +212,7 @@ ul {
     color: red;
 }
 
-.crad-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 
 
@@ -246,8 +247,14 @@ ul {
         position: fixed;
         top: 0;
     } */
+
+
 .crad-container{
+    width: 100%;
     flex-direction: column;
+    gap: 5px;
+
+    
 }
 
 }
