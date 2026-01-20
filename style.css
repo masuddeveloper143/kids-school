@@ -8,6 +8,7 @@
     text-decoration: none;
     border: none;
     outline: none;
+    list-style: none;
     font-family: "Quicksand", sans-serif;
 }
 
@@ -20,4 +21,12 @@ html{
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 16px;
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
