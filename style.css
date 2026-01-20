@@ -196,8 +196,15 @@ ul {
     text-align: center;
 }
 
-.crad-box a {
+.crad-box .a1 {
     color: blue;
+}
+
+.a2{
+    color: green;
+}
+.a3{
+    color: red;
 }
 
 .crad-container{
