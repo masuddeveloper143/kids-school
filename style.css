@@ -139,5 +139,7 @@ ul {
         display: none;
     }
 
-    
+    .hero-item-prent{
+        flex-direction: column-reverse;
+    }
 }
