@@ -228,8 +228,29 @@ ul {
     grid-row: span 2;
 }
 
-.big h1{
-     margin-top:100px;
+.big h1 {
+    margin-top: 100px;
+    color: rgba(0, 0, 0, 1);
+
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.big p {
+    color: rgba(102, 102, 102, 1);
+    font-family: Raleway;
+    font-style: Medium;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
 }
 
 .grid-crad {
@@ -239,12 +260,12 @@ ul {
 
 }
 
-.grid-crad-title{
+.grid-crad-title {
     padding: 16px;
 }
 
-#btn{
-    
+#btn {
+
     padding: 12px 20px;
     border-radius: 8px;
     background-color: skyblue;
@@ -254,7 +275,7 @@ ul {
 
 }
 
-.grid-crad-title-p{
+.grid-crad-title-p {
     margin-top: 20px;
 }
 
