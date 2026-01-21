@@ -229,9 +229,8 @@ ul {
 }
 
 .big h1 {
-    margin-top: 100px;
+    margin-top: 50px;
     color: rgba(0, 0, 0, 1);
-
     font-family: Quicksand;
     font-style: Bold;
     font-size: 24px;
