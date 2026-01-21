@@ -315,6 +315,11 @@ footer{
     height: 500px;
 }
 
+.footer-content-logo{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
