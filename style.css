@@ -312,7 +312,7 @@ ul {
 footer {
     background: blue;
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -321,7 +321,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .footer-content-logo {
@@ -345,9 +345,9 @@ footer {
 }
 
 .footer-content p {
-    width: 500px;
+    width: 420px;
     color: white;
-    opacity: ;
+    opacity: 0.8;
     font-family: Quicksand;
     font-style: Regular;
     font-size: 20px;
@@ -362,6 +362,10 @@ footer {
     flex-direction: column;
     gap: 30px;
     color: white;
+}
+.keep h1{
+margin-bottom: 1rem;
+color: white;
 }
 
 
@@ -449,4 +453,30 @@ footer {
     #btn {
         padding: 10px 15px;
     }
+
+
+    .container-footer{ 
+        height: auto;
+        flex-direction: column;
+        text-align: left;
+        gap: 30px;
+    }
+    .container-footer p{ 
+        width: 100%;
+    }
+    .container-footer h1{ 
+        width: 100%;
+    }
+
+    .footer-content-abut{
+        width: 100%;
+    }
+    .keep{
+        width: 100%;
+    }
+
+
+
+    
+
 }
