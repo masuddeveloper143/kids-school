@@ -310,10 +310,11 @@ ul {
 
 
 footer {
-
+display: flex;
+align-items: cn;
     background: blue;
     height: 500px;
-    margin: auto 0;
+
 }
 
 .container-footer{
