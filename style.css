@@ -213,11 +213,11 @@ ul {
     color: red;
 }
 
-.crad-toph1{
+.crad-toph2 {
     gap: 4px;
 }
 
-.sevg{
+.sevg {
     gap: 4px;
     width: 60px;
     height: 60px;
@@ -270,6 +270,10 @@ ul {
     background: rgba(255, 255, 255, 1);
     border: 1px solid;
 
+}
+
+.grid-crad.crad5{
+    display: none;
 }
 
 .grid-crad-title {
@@ -352,4 +356,40 @@ ul {
         width: 100%;
     }
 
+    .crad-toph2 {
+        display: none;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-crad.big {
+        grid-row: span 1;
+    }
+
+    .grid-crad {
+        width: 100%;
+        height: 300px;
+    }
+
+    .grid-crad.crad5{
+        display: block;
+    }
+
+    .grid-crad.big h1 {
+        width: 100%;
+        margin: 0;
+        font-size: 20px;
+        line-height: normal;
+
+    }
+
+    .grid-crad.big p {
+        display: none;
+    }
+
+    #btn {
+    padding: 10px 15px;
+    }
 }
