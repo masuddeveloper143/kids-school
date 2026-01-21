@@ -280,18 +280,24 @@ ul {
     padding: 16px;
 }
 
-#btn {
+.bt1{
 
     padding: 12px 20px;
     border-radius: 8px;
-    background-color: skyblue;
+    background-color: blue;
     color: white;
     position: absolute;
     margin-top: -40px;
 
 }
-.{
-    background-color: black;
+.btn2{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: gold;
+    color: white;
+    position: absolute;
+    margin-top: -40px;
+
 }
 
 .viwall {
