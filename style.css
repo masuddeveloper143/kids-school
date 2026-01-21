@@ -158,7 +158,7 @@ ul {
 
 .crad-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -216,14 +216,15 @@ ul {
 
 .grid-container {
     display: grid;
-    
+
     grid-template-columns: 2fr 1fr 1fr;
     grid-auto-rows: 1fr;
     gap: 20px;
-    
+
 }
 
-.grid-crad.big{
+
+.grid-crad.big {
     grid-row: span 2;
 }
 
@@ -231,6 +232,14 @@ ul {
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
     border: 1px solid black;
+}
+
+.grid-crad img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    object-fit: cover;
+
 }
 
 
