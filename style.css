@@ -344,6 +344,12 @@ footer {
     text-align: left;
 }
 
+.footer-content-abut{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:white;
+}
 
 
 
