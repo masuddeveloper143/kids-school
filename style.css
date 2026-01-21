@@ -272,7 +272,7 @@ ul {
 
 }
 
-.grid-crad.crad5{
+.grid-crad.crad5 {
     display: none;
 }
 
@@ -291,7 +291,7 @@ ul {
 
 }
 
-.viwall{
+.viwall {
     background-color: black;
 }
 
@@ -309,17 +309,40 @@ ul {
 }
 
 
-footer{
+footer {
 
     background: blue;
     height: 500px;
 }
 
-.footer-content-logo{
+.footer-content-logo {
+    width: 296px;
     display: flex;
     align-items: center;
 }
 
+.footer-content-logo h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-content p {
+    width: 500px;
+    color: hwb(0 84% 15%);
+    font-family: Quicksand;
+    font-style: Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
 
 
@@ -386,7 +409,7 @@ footer{
         height: 300px;
     }
 
-    .grid-crad.crad5{
+    .grid-crad.crad5 {
         display: block;
     }
 
@@ -403,6 +426,6 @@ footer{
     }
 
     #btn {
-    padding: 10px 15px;
+        padding: 10px 15px;
     }
 }
