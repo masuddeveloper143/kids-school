@@ -508,8 +508,12 @@ color: white;
         display: none;
     }
 
-    #btn {
-        padding: 10px 15px;
+    #btn{
+    padding: 5px 10px;
+    font-size: 11px;
+    border-radius: 14px;
+    margin-top: -33px;
+
     }
 
 footer{
