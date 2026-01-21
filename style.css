@@ -156,7 +156,7 @@ ul {
     text-align: center;
 }
 
-.crad-container{
+.crad-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -205,16 +205,24 @@ ul {
     color: blue;
 }
 
-.a2{
+.a2 {
     color: green;
 }
-.a3{
+
+.a3 {
     color: red;
 }
 
 
-.grid-container{
-    di
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat();
+}
+
+.grid-crad {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid black;
 }
 
 
@@ -260,13 +268,13 @@ ul {
     } */
 
 
-.crad-container{
-    flex-direction: column;
-    gap: 5px;
-}
+    .crad-container {
+        flex-direction: column;
+        gap: 5px;
+    }
 
-.crad-box{
-    width: 100%;
-}
+    .crad-box {
+        width: 100%;
+    }
 
 }
