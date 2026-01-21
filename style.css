@@ -231,7 +231,12 @@ ul {
 .grid-crad {
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
-    border: 1px solid black;
+    border: 1px solid;
+
+}
+
+.grid-crad-title{
+    padding: 16px;
 }
 
 .grid-crad img {
