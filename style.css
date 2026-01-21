@@ -239,6 +239,10 @@ ul {
     padding: 16px;
 }
 
+.grid-crad-title.btn{
+    
+}
+
 .grid-crad img {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
