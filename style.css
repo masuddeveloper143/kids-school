@@ -310,7 +310,9 @@ ul {
 
 
 footer{
-    background-color: black;
+
+    background: blue;
+    height: 500px;
 }
 
 
