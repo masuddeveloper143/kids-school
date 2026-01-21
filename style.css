@@ -280,7 +280,7 @@ ul {
     padding: 16px;
 }
 
-.bt1{
+.bt1 {
 
     padding: 12px 20px;
     border-radius: 8px;
@@ -290,11 +290,52 @@ ul {
     margin-top: -40px;
 
 }
-.btn2{
+.bt2 {
+
     padding: 12px 20px;
     border-radius: 8px;
-    background-color: gold;
+    background-color: green;
     color: white;
+    position: absolute;
+    margin-top: -40px;
+
+}
+.bt3 {
+
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: goldenrod;
+    color: white;
+    position: absolute;
+    margin-top: -40px;
+
+}
+.bt4 {
+
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: chartreuse;
+    color:black;
+    position: absolute;
+    margin-top: -40px;
+
+}
+.bt5 {
+
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    margin-top: -40px;
+
+}
+.bt6{
+
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgb(238, 254, 11);
+    color: green;
     position: absolute;
     margin-top: -40px;
 
