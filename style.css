@@ -315,16 +315,9 @@ footer {
     height: 500px;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .footer-content-logo {
     width: 296px;
     display: flex;
-    align-items: center;
 }
 
 .footer-content-logo h1 {
@@ -350,11 +343,11 @@ footer {
     text-align: left;
 }
 
-.footer-content-abut {
+.footer-content-abut{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    color: white;
+    color:white;
 }
 
 
