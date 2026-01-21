@@ -216,7 +216,15 @@ ul {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat();
+    
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+    
+}
+
+.grid-crad.big{
+    grid-row: span 2;
 }
 
 .grid-crad {
