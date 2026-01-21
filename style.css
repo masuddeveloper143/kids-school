@@ -213,6 +213,15 @@ ul {
     color: red;
 }
 
+.sevg{
+    display: flex;
+    gap: 4px;
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    color: white;
+}
+
 
 .grid-container {
     display: grid;
