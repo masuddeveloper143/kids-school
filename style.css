@@ -454,12 +454,14 @@ color: white;
         padding: 10px 15px;
     }
 
-
+footer{
+    height: auto;
+}
     .container-footer{ 
-        height: auto;
         flex-direction: column;
         text-align: left;
         gap: 30px;
+        padding: 50px 20px;
     }
     .container-footer p{ 
         width: 100%;
@@ -473,6 +475,11 @@ color: white;
     }
     .keep{
         width: 100%;
+        margin-bottom: px;
+    }
+
+    .footer-content-logo{
+        margin-top: ;
     }
 
 
