@@ -240,7 +240,10 @@ ul {
 }
 
 #btn{
-    margin-bottom: -100px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: skyblue;
+    color: white;
 }
 
 .grid-crad img {
