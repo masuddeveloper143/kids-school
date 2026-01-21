@@ -214,10 +214,10 @@ ul {
 }
 
 .sevg{
-    display: flex;
     gap: 4px;
     width: 60px;
     height: 60px;
+    border-radius: 50%;
     background-color: orange;
     color: white;
 }
