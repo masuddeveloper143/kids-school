@@ -310,22 +310,26 @@ ul {
 
 
 footer {
-display: flex;
-align-items: cn;
     background: blue;
     height: 500px;
+    border: 2px solid red;
 
 }
 
-.container-footer{
+.container-footer {
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    border: 2px solid red;
 }
 
 .footer-content-logo {
     width: 296px;
     display: flex;
+    align-items: center;
+    gap: 4PX;
+    margin-bottom: 1rem;
 }
 
 .footer-content-logo h1 {
@@ -337,11 +341,13 @@ align-items: cn;
     line-height: 39.51px;
     letter-spacing: 0%;
     text-align: left;
+
 }
 
 .footer-content p {
     width: 500px;
-    color: hwb(0 84% 15%);
+    color: white;
+    opacity: ;
     font-family: Quicksand;
     font-style: Regular;
     font-size: 20px;
@@ -351,12 +357,14 @@ align-items: cn;
     text-align: left;
 }
 
-.footer-content-abut{
+.footer-content-abut, a {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    color:white;
+    gap: 30px;
+    color: white;
 }
+
+
 
 
 
